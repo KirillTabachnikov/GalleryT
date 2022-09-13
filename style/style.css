@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Russo One", sans-serif;
+}
+
+.gallery_title {
+  color: red;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.gallery__items {
+  display: grid;
+  grid-template-columns: 498px 498px 498px;
+  gap: 88px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.gallery-item {
+  height: 323px;
+  border: 1px solid black;
+  box-shadow: 26px 32px 39px 10px rgba(0, 0, 0, 0.444);
+}
+.gallery-item__image {
+  height: 280px;
+  width: 496px;
+}
+.gallery-item__audio {
+  height: 280px;
+  width: 496px;
+}
+.gallery-item__video {
+  height: 280px;
+  width: 496px;
+}
+.gallery-item__title {
+  margin-top: 10px;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
